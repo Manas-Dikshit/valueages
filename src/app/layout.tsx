@@ -61,10 +61,11 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/Nav_logo1.svg", type: "image/svg+xml" },
+      { url: "/icon0.svg", type: "image/svg+xml" },
+      { url: "/icon1.png", type: "image/png" },
     ],
-    shortcut: "/Nav_logo1.svg",
-    apple: "/apple-icon",
+    shortcut: "/favicon.ico",
+    apple: "/apple-icon.png",
   },
   openGraph: {
     title: "Valueages | India Enterprise GTM Advisory",
@@ -107,6 +108,9 @@ export default function RootLayout({
       lang="en"
       className={cn("h-full", "antialiased", inter.variable, playfair.variable, "font-sans", geist.variable)}
     >
+      <head>
+        <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+      </head>
       <body className="min-h-full flex flex-col font-sans bg-[var(--background)] text-[var(--foreground)] antialiased">
         <a href="#main-content" className="skip-link sr-only focus:not-sr-only">
           Skip to main content
