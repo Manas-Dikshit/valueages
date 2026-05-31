@@ -1,0 +1,15 @@
+User-Agent: *
+Allow: /
+
+User-Agent: GPTBot
+User-Agent: Google-Extended
+User-Agent: ClaudeBot
+User-Agent: CCBot
+User-Agent: Bytespider
+User-Agent: Amazonbot
+User-Agent: Applebot-Extended
+User-Agent: meta-externalagent
+Disallow: /
+
+Host: https://valueages.com
+Sitemap: https://valueages.com/sitemap.xml
