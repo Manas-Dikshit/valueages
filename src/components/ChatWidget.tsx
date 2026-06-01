@@ -376,7 +376,7 @@ export default function ChatWidget() {
         aria-label={isOpen ? "Close chat" : "Open AI chat assistant"}
         aria-expanded={isOpen}
         className="fixed bottom-6 right-4 sm:right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-brand-teal text-white shadow-lg shadow-brand-teal/30 transition-all duration-200 hover:bg-[#0d8870] hover:shadow-brand-teal/40 active:scale-95"
-        whileHover={{ scale: 1.06 }}
+        whileHover={{ y: -4 }}
         whileTap={{ scale: 0.94 }}
       >
         <AnimatePresence mode="wait" initial={false}>

@@ -165,7 +165,7 @@ export default function WhoShouldContact() {
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, margin: "-80px" }}
+          viewport={{ once: true, margin: "-100px" }}
           className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3"
         >
           {profiles.slice(0, 3).map((profile) => {
@@ -174,7 +174,7 @@ export default function WhoShouldContact() {
               <motion.div
                 key={profile.id}
                 variants={cardVariants}
-                whileHover={{ y: -5, scale: 1.013 }}
+                whileHover={{ y: -6 }}
                 transition={{ type: "spring", stiffness: 280, damping: 22 }}
                 className={`group flex flex-col overflow-hidden rounded-2xl border bg-white shadow-sm transition-shadow duration-300 hover:shadow-xl ${profile.accentBorder}`}
               >
@@ -253,7 +253,7 @@ export default function WhoShouldContact() {
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, margin: "-80px" }}
+          viewport={{ once: true, margin: "-100px" }}
           className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:mx-auto lg:max-w-[calc(66.67%+0.83rem)]"
         >
           {profiles.slice(3).map((profile) => {
@@ -262,7 +262,7 @@ export default function WhoShouldContact() {
               <motion.div
                 key={profile.id}
                 variants={cardVariants}
-                whileHover={{ y: -5, scale: 1.013 }}
+                whileHover={{ y: -6 }}
                 transition={{ type: "spring", stiffness: 280, damping: 22 }}
                 className={`group flex flex-col overflow-hidden rounded-2xl border bg-white shadow-sm transition-shadow duration-300 hover:shadow-xl ${profile.accentBorder}`}
               >
@@ -305,7 +305,7 @@ export default function WhoShouldContact() {
         <motion.div
           initial={{ opacity: 0, y: 14 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.5, delay: 0.15 }}
           className="mt-6 flex flex-col items-start gap-4 rounded-2xl border border-slate-200 bg-slate-50 px-6 py-5 sm:flex-row sm:items-center"
         >
@@ -326,7 +326,7 @@ export default function WhoShouldContact() {
         <motion.div
           initial={{ opacity: 0, y: 14 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.5, delay: 0.25 }}
           className="mt-6 flex flex-col items-center gap-3 rounded-2xl border border-brand-teal/15 bg-brand-teal/5 px-6 py-8 text-center"
         >

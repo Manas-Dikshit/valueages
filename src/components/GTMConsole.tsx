@@ -120,7 +120,7 @@ export default function GTMConsole() {
             initial={{ opacity: 0, y: 35 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-100px" }}
             className="lg:col-span-5"
           >
             {/* Eyebrow */}
@@ -151,7 +151,7 @@ export default function GTMConsole() {
             <div className="mt-10 space-y-4">
               {/* Card 1 */}
               <motion.div
-                whileHover={{ y: -5 }}
+                whileHover={{ y: -4 }}
                 transition={{ duration: 0.25 }}
                 className="group relative overflow-hidden rounded-2xl border border-slate-200/70 bg-white/70 p-5 shadow-[0_10px_35px_rgba(0,0,0,0.05)] backdrop-blur-xl"
               >
@@ -177,7 +177,7 @@ export default function GTMConsole() {
 
               {/* Card 2 */}
               <motion.div
-                whileHover={{ y: -5 }}
+                whileHover={{ y: -4 }}
                 transition={{ duration: 0.25 }}
                 className="group relative overflow-hidden rounded-2xl border border-slate-200/70 bg-white/70 p-5 shadow-[0_10px_35px_rgba(0,0,0,0.05)] backdrop-blur-xl"
               >
@@ -204,7 +204,7 @@ export default function GTMConsole() {
 
             {/* CTA */}
             <motion.a
-              whileHover={{ scale: 1.03 }}
+              whileHover={{ y: -6 }}
               whileTap={{ scale: 0.98 }}
               href="#contact"
               className="group relative mt-10 inline-flex items-center gap-2 overflow-hidden rounded-xl bg-slate-950 px-7 py-3.5 text-sm font-semibold text-white shadow-2xl transition-all"
@@ -226,7 +226,7 @@ export default function GTMConsole() {
             initial={{ opacity: 0, y: 35 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-100px" }}
             className="lg:col-span-7"
           >
             <div className="relative overflow-hidden rounded-[30px] border border-slate-200/70 bg-white/75 p-5 shadow-[0_25px_80px_rgba(0,0,0,0.08)] backdrop-blur-2xl sm:p-7">

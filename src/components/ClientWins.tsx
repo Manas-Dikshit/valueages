@@ -140,7 +140,7 @@ export default function ClientWins() {
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, margin: "-80px" }}
+          viewport={{ once: true, margin: "-100px" }}
           className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-5"
         >
           {clients.map((client) => {
@@ -149,7 +149,7 @@ export default function ClientWins() {
               <motion.div
                 key={client.name}
                 variants={cardVariants}
-                whileHover={{ y: -6, scale: 1.02 }}
+                whileHover={{ y: -6 }}
                 transition={{ type: "spring", stiffness: 280, damping: 20 }}
                 className={`group relative flex flex-col overflow-hidden rounded-2xl border bg-white shadow-sm transition-shadow duration-300 hover:shadow-xl ${client.borderColor}`}
               >
@@ -194,7 +194,7 @@ export default function ClientWins() {
         <motion.div
           initial={{ opacity: 0, y: 14 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.5, delay: 0.2 }}
           className="mt-10 flex flex-col items-center gap-3 rounded-2xl border border-brand-teal/15 bg-white px-6 py-5 shadow-sm sm:flex-row sm:justify-center"
         >

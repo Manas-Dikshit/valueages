@@ -171,7 +171,7 @@ export default function Contact() {
           <motion.div
             initial={{ opacity: 0, x: -16 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.55 }}
             className="lg:col-span-5 flex flex-col gap-5"
           >
@@ -257,7 +257,7 @@ export default function Contact() {
           <motion.div
             initial={{ opacity: 0, x: 16 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.55, delay: 0.08 }}
             className="lg:col-span-7"
           >
