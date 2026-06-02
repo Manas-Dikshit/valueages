@@ -158,7 +158,7 @@ export default function WhyChooseUs() {
                     {[
                       { year: "2002 - 2019", title: "Enterprise Tech", detail: "Presales Architecture Depth", accent: "border-brand-teal bg-brand-teal/5 text-brand-teal" },
                       { year: "2019 - 2024", title: "Sales Leader", detail: "ServiceNow, OutSystems, SFDC", accent: "border-brand-rust bg-brand-rust/5 text-brand-rust" },
-                      { year: "2024 - Pres.", title: "GTM Advisory", detail: "Accelerating Market Entry", accent: "border-brand-tan bg-brand-tan/5 text-brand-rust" }
+                      { year: "2024 - Pres.", title: "GTM Advisory", detail: "Accelerating Market Entry", accent: "border-brand-tan bg-brand-tan/5 text-brand-tan" }
                     ].map((step, sIdx) => (
                       <div key={sIdx} className="flex flex-col items-center text-center relative z-10">
                         <span className={`w-8 h-8 rounded-full border-2 flex items-center justify-center text-[10px] font-black shadow-sm transition-transform duration-300 group-hover:scale-110 ${step.accent}`}>
